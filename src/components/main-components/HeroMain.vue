@@ -24,17 +24,21 @@ export default {
 
                 <p>Have more question? <span class="green fw-bold">Get free sample -></span> </p>
             </div>
-            
-            <img src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="about-me" class="about-me">
-
+            <div class="about-me-imgs position-relative text-center">
+                <img src="../../assets/img/maxcoach-shape-08.png" alt="" class="first-bg">
+                <img src="../../assets/img/maxcoach-shape-08.png" alt="" class="second-bg">
+                <img src="../../assets/img/maxcoach-shape-07-150x150.png" alt="" class="third-bg">
+                <img src="../../assets/img/maxcoach-shape-02.png" alt="" class="fourth-bg">
+                <img src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="about-me" class="about-me position-relative">
+            </div>
         </div>
-        <div class="wrapped-container d-flex justify-content-around clients">
-            <img src="../../assets/img/client-logo-01.png" alt="" class="client">
-            <img src="../../assets/img/client-logo-02.png" alt="" class="client">
-            <img src="../../assets/img/client-logo-03.png" alt="" class="client">
-            <img src="../../assets/img/client-logo-04.png" alt="" class="client">
-            <img src="../../assets/img/client-logo-05.png" alt="" class="client">
-            <img src="../../assets/img/client-logo-06.png" alt="" class="client">
+        <div class="wrapped-container me-5 p-5">
+            <img src="../../assets/img/client-logo-01.png" alt="client-logo1" class="client m-5">
+            <img src="../../assets/img/client-logo-02.png" alt="client-logo2" class="client m-5">
+            <img src="../../assets/img/client-logo-03.png" alt="client-logo3" class="client m-5">
+            <img src="../../assets/img/client-logo-04.png" alt="client-logo4" class="client m-5">
+            <img src="../../assets/img/client-logo-05.png" alt="client-logo5" class="client m-5">
+            <img src="../../assets/img/client-logo-06.png" alt="client-logo6" class="client m-5">
         </div>
 
         <div class="lateral-options position-absolute text-center fs-4 rounded-2">
@@ -71,13 +75,34 @@ export default {
             border-bottom: 1px solid $marked;
             cursor: pointer;
         }
-        img.client{
-            width: 50px;
-            height: 50px;
-        }
+        
+    }
+    img.first-bg{
+        position: absolute;
+        top: 20%;
+        left: 0;
+        transform: translateY(-40%);
+
+    }
+    img.second-bg{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        transform: translateY(-65%);
+    }
+    img.third-bg{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        transform: translateY(-35%);
+    }
+    img.fourth-bg{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        transform: translateX(100%);
     }
     img.about-me{
-        background-image: url(../../assets/img/maxcoach-shape-07-150x150.png);
         border-radius: 50%;
         width: 450px;
         height: 450px;
