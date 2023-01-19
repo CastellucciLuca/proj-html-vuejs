@@ -3,9 +3,10 @@ import HeroMain from './main-components/HeroMain.vue';
 import OnlineCorses from './main-components/OnlineCorses.vue';
 import Tutoring from './main-components/Tutoring.vue';
 import TopLearners from './main-components/TopLearners.vue';
+import BestBlog from './main-components/BestBlog.vue';
 export default {
     name: "AppMain",
-    components: { HeroMain, OnlineCorses, Tutoring, TopLearners }
+    components: { HeroMain, OnlineCorses, Tutoring, TopLearners, BestBlog }
 }
 </script>
 
@@ -14,7 +15,8 @@ export default {
         <HeroMain />
         <OnlineCorses />
         <Tutoring />
-        <TopLearners  class="top-learners"/>
+        <TopLearners  class="bg-red"/>
+        <BestBlog class="bg-red"/>
     </main>
 </template>
 
