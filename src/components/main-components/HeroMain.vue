@@ -61,39 +61,47 @@ export default {
         height: 45%;
         margin: 0 5rem;
         padding: 8rem;
+        h2{
+            color:$GunPowder;
+        }
         p{
-            color: $p-color;
+            color: $ShadyLady;
         }
         button {
-            background-color: $button;
-            border: transparent;
-            font-size: .8rem;
-            margin-bottom: 1rem;
-        }
+                background-color: $JungleGreen !important;
+                color: white !important;
+                font-weight: 700;
+                padding: .5rem 2rem;
+                width: 280px;
+            }
+            button:hover{
+                background-color: $GunPowder !important;
+                color: white;
+            }
         .green{
-            color: $txt-color;
-            border-bottom: 1px solid $marked;
+            color: $JungleGreen;
+            border-bottom: 1px solid $ShadyLady;
             cursor: pointer;
         }
         
     }
     img.first-bg{
         position: absolute;
-        top: 20%;
+        top: 25%;
         left: 0;
-        transform: translateY(-40%);
+        transform: translateX(-40%);
 
     }
     img.second-bg{
         position: absolute;
-        top: 70%;
+        top: 50%;
         left: 0;
-        transform: translateY(-65%);
+        transform: translateX(-40%);
     }
     img.third-bg{
         position: absolute;
         bottom: 0;
-        right: 10%;
+        right: 5%;
         transform: translateY(-35%);
     }
     img.fourth-bg{
@@ -104,8 +112,8 @@ export default {
     }
     img.about-me{
         border-radius: 50%;
-        width: 450px;
-        height: 450px;
+        width: 550px;
+        height: 550px;
         }
     .lateral-options {
         height: 135px;

@@ -6,7 +6,7 @@ import AppFooter from './components/AppFooter.vue'
 
 <template>
     <!-- Import Header -->
-    <AppHeader />
+    <AppHeader class="shadow-sm" />
     <!-- Import Main -->
     <AppMain />
     <!-- Import Footer -->
