@@ -100,7 +100,7 @@ export default {
         border: none;
         width: 18rem;
         img{
-            width: 160px;
+            width: 150px;
         }
         .card-body{
             .card-title{

@@ -128,10 +128,11 @@ export default {
         height: 550px;
         }
     .lateral-options {
-        height: 135px;
+        height: 145px;
         width: 35px;
-        background-color: white;
+        background-color: $HintOfRed;
         right: 0;
         top: 20%;
+        cursor: pointer;
     }
 </style>
