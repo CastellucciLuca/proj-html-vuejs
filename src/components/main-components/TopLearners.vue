@@ -91,7 +91,7 @@ export default {
                 </div>
                 <!-- COLLEGO I PUNTINI IN BASE A QUANTI OGGETTI CONTIENE L'ARRAY -->
                 <div class="col-12 text-center selected-teacher-circle mb-5">
-                    <font-awesome-icon icon="fa-solid fa-circle " class="me-3" v-for="(teacher, index) in teacherCards" :key="index + ''" :class="(index === elementActive) ? ' active ' : ''" @click="elementActive = index"></font-awesome-icon>
+                    <font-awesome-icon icon="fa-solid fa-circle " class="fa me-3" v-for="(teacher, index) in teacherCards" :key="index + ''" :class="(index === elementActive) ? ' active ' : ''" @click="elementActive = index"></font-awesome-icon>
                 </div>
             </div>
             <!-- ONLINE CERTIFICATION SECTION -->
@@ -159,7 +159,8 @@ export default {
     .teacher-wrapper.active{
         filter: opacity(100);
     }
-    .selected-teacher-circle.active{
+    .selected-teacher-circle
+    .fa.active{
             filter: opacity(100);
             font-size: medium;
         }
