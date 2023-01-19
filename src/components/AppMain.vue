@@ -2,9 +2,10 @@
 import HeroMain from './main-components/HeroMain.vue';
 import OnlineCorses from './main-components/OnlineCorses.vue';
 import Tutoring from './main-components/Tutoring.vue';
+import TopLearners from './main-components/TopLearners.vue';
 export default {
     name: "AppMain",
-    components: { HeroMain, OnlineCorses, Tutoring }
+    components: { HeroMain, OnlineCorses, Tutoring, TopLearners }
 }
 </script>
 
@@ -13,6 +14,7 @@ export default {
         <HeroMain />
         <OnlineCorses />
         <Tutoring />
+        <TopLearners  class="top-learners"/>
     </main>
 </template>
 

@@ -100,7 +100,7 @@ export default {
         border: none;
         width: 18rem;
         img{
-            width: 160px !important;
+            width: 160px;
         }
         .card-body{
             .card-title{
@@ -111,7 +111,7 @@ export default {
             }
             a{
                 text-decoration: none;
-                color: $ShadyLady !important;
+                color: $ShadyLady;
             }
             span{
                 cursor: pointer;

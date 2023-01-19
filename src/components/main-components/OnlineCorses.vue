@@ -102,7 +102,7 @@ export default {
     cursor: pointer;
     img{
         width: 160px;
-        border-radius: 50% !important;
+        border-radius: 50%;
         height: 160px;
         object-fit: cover;
     }
@@ -120,14 +120,14 @@ export default {
     background-color: white;
 }
 button{
-    background-color: $JungleGreen !important;
-    color: white !important;
+    background-color: $JungleGreen;
+    color: white;
     font-weight: 700;
     padding: .5rem 2rem;
     width: 280px;
 }
 button:hover{
-    background-color: $GunPowder !important;
+    background-color: $GunPowder;
     color: white;
 }
 </style>
