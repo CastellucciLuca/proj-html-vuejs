@@ -25,6 +25,7 @@ export default {
                 <p>Have more question? <span class="green fw-bold">Get free sample -></span> </p>
             </div>
             <div class="about-me-imgs position-relative text-center">
+                <div id="my-circle" class="rounded-pill position-absolute"></div>
                 <img src="../../assets/img/maxcoach-shape-08.png" alt="" class="first-bg">
                 <img src="../../assets/img/maxcoach-shape-08.png" alt="" class="second-bg">
                 <img src="../../assets/img/maxcoach-shape-07-150x150.png" alt="" class="third-bg">
@@ -88,17 +89,25 @@ export default {
         }
         
     }
+    #my-circle{
+        height: 80px;
+        width: 80px;
+        border: 10px solid $first-circle;
+        left: -10%;
+        top: 59%;
+        z-index: 1;
+    }
     img.first-bg{
         position: absolute;
         top: 25%;
-        left: 0;
+        left: -5%;
         transform: translateX(-40%);
 
     }
     img.second-bg{
         position: absolute;
         top: 50%;
-        left: 0;
+        left: -5%;
         transform: translateX(-40%);
     }
     img.third-bg{
