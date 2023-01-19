@@ -1,9 +1,10 @@
 <script>
 import HeroMain from './main-components/HeroMain.vue';
 import OnlineCorses from './main-components/OnlineCorses.vue';
+import Tutoring from './main-components/Tutoring.vue';
 export default {
     name: "AppMain",
-    components: { HeroMain, OnlineCorses }
+    components: { HeroMain, OnlineCorses, Tutoring }
 }
 </script>
 
@@ -11,6 +12,7 @@ export default {
     <main>
         <HeroMain />
         <OnlineCorses />
+        <Tutoring />
     </main>
 </template>
 
