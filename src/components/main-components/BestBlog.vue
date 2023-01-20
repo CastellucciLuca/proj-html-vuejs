@@ -68,7 +68,7 @@ export default {
     h2{
         color: $GunPowder;
         span{
-            color: $JungleGreen;
+            color: $Basketball;
         }
     }
     .col-12{

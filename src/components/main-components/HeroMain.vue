@@ -22,7 +22,7 @@ export default {
                     <font-awesome-icon icon="fa-solid fa-download" /> Download free guide
                 </button>
 
-                <p>Have more question? <span class="orange fw-bold">Get free sample <font-awesome-icon icon="fa-solid fa-right-long"/></span> </p>
+                <p>Have more question? <span class="green fw-bold">Get free sample <font-awesome-icon icon="fa-solid fa-right-long"/></span> </p>
             </div>
             <div class="about-me-imgs position-relative text-center">
                 <div id="my-circle" class="rounded-pill position-absolute"></div>
@@ -71,7 +71,7 @@ export default {
             font-weight: 700;
         }
         button {
-                background-color: $JungleGreen ;
+                background-color: $Basketball ;
                 color: white;
                 font-weight: 700;
                 width: 280px;
@@ -82,8 +82,8 @@ export default {
                 background-color: $GunPowder;
                 color: white;
             }
-        .orange{
-            color: $Basketball;
+        .green{
+            color: $JungleGreen;
             border-bottom: 1px solid $ShadyLady;
             cursor: pointer;
         }

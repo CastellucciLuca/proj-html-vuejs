@@ -107,7 +107,7 @@ export default {
         object-fit: cover;
     }
     h4{
-        color: $JungleGreen;
+        color: $Basketball;
     }
     p{
         color: $GunPowder;
@@ -119,11 +119,11 @@ export default {
 .col-6:hover{
     background-color: white;
     p{
-        color: $JungleGreen;
+        color: $Basketball;
     }
 }
 button{
-    background-color: $JungleGreen;
+    background-color: $Basketball;
     color: white;
     font-weight: 700;
     padding: .5rem 2rem;

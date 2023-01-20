@@ -27,7 +27,7 @@ export default {
     h3{
         color: $GunPowder;
         span{
-            color: $JungleGreen;
+            color: $Basketball;
         }
     }
     p{
@@ -54,7 +54,7 @@ export default {
         }
         button{
             width: 30%;
-                background-color: $JungleGreen;
+                background-color: $Basketball;
                 color: white;
                 font-weight: 700;
                 padding: .5rem 2rem;

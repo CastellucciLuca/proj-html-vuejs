@@ -126,7 +126,7 @@ export default {
         h3{
             color: $GunPowder;
             span{
-                color: $JungleGreen;
+                color: $Basketball;
             }
         }
     }
@@ -169,11 +169,11 @@ export default {
         h6{
             color: $GunPowder;
             span{
-                color: $JungleGreen;
+                color: $Basketball;
             }
         }
         button{
-            background-color: $JungleGreen;
+            background-color: $Basketball;
             color: white;
             font-weight: 700;
             padding: .5rem 2rem;
@@ -204,7 +204,7 @@ button:hover{
             color: $GunPowder;
         }
         h2{
-            color: $JungleGreen;
+            color: $Basketball;
         }
     }
 }

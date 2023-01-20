@@ -93,7 +93,7 @@ export default {
     h3{
         color: $GunPowder;
         span{
-            color: $JungleGreen;
+            color: $Basketball;
         }
     }
     .card{
@@ -158,11 +158,11 @@ export default {
     h1{
         color: $GunPowder;
         span{
-            color: $JungleGreen;
+            color: $Basketball;
         }
     }
     span{
-        color: $Basketball ;
+        color: $JungleGreen ;
         cursor: pointer;
     }
     p{
