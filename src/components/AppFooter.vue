@@ -99,7 +99,7 @@ export default {
     right: 2%;
     height: 80px;
     width: 80px;
-    background-color: $JungleGreen;
+    background-color: $Basketball;
     border-radius: 50%;
     display: flex;
     align-items: center;
