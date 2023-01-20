@@ -10,7 +10,7 @@ import AppFooter from './components/AppFooter.vue'
     <!-- Import Main -->
     <AppMain />
     <!-- Import Footer -->
-    <AppFooter />
+    <AppFooter class="bg-red position-relative" />
 </template>
 
 <style lang="scss">

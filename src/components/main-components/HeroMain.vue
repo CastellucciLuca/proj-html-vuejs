@@ -74,9 +74,9 @@ export default {
                 background-color: $JungleGreen ;
                 color: white;
                 font-weight: 700;
-                padding: .5rem 2rem;
                 width: 280px;
-                margin-bottom:2rem
+                margin-bottom:2rem;
+                border: none;
             }
             button:hover{
                 background-color: $GunPowder;
