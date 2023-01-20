@@ -67,6 +67,7 @@ header{
         input, span{
         background-color: $HintOfRed;
         border: none;
+        cursor: pointer;
         }
         input{
         font-size: 1.2rem;
