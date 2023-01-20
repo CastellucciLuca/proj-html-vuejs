@@ -83,7 +83,7 @@ export default {
                 color: white;
             }
         .green{
-            color: $JungleGreen;
+            color: $Basketball;
             border-bottom: 1px solid $ShadyLady;
             cursor: pointer;
         }

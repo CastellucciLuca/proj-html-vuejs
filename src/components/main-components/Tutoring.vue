@@ -101,6 +101,7 @@ export default {
         width: 18rem;
         img{
             width: 150px;
+            height: 132px;
         }
         .card-body{
             .card-title{
@@ -161,7 +162,7 @@ export default {
         }
     }
     span{
-        color: $JungleGreen ;
+        color: $Basketball ;
         cursor: pointer;
     }
     p{

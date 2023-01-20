@@ -74,7 +74,7 @@ header{
         font-weight: 600;
         }
         span{
-        color: $MountainMeadow;
+        color: $Basketball;
         }
     }
 }
