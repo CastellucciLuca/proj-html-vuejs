@@ -42,9 +42,9 @@ export default {
             <img src="../../assets/img/client-logo-06.png" alt="client-logo6" class="client m-5">
         </div>
 
-        <div class="lateral-options position-absolute text-center fs-4 rounded-2">
+        <div class="lateral-options position-absolute text-center fs-4 rounded-2 shadow-lg">
             <font-awesome-icon icon="fa-solid fa-ruler" />
-            <font-awesome-icon icon="fa-solid fa-atom" />
+            <font-awesome-icon icon="fa-solid fa-life-ring" />
             <font-awesome-icon icon="fa-solid fa-book" />
             <font-awesome-icon icon="fa-solid fa-cart-shopping" />
 
@@ -130,7 +130,6 @@ export default {
     .lateral-options {
         height: 145px;
         width: 35px;
-        background-color: $HintOfRed;
         right: 0;
         top: 20%;
         cursor: pointer;
